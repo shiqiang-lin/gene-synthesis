@@ -1,0 +1,25 @@
+Method (A)：
+block1：
+  Nucleic Acid Conc:	96 ng/μl
+
+block2：
+  Nucleic Acid Conc:	39 ng/μl
+
+block3：
+  Nucleic Acid Conc:	83 ng/μl
+
+
+Method (B)：
+block1：
+  Nucleic Acid Conc:	204 ng/μl
+
+block2：
+  Nucleic Acid Conc:	198 ng/μl
+
+block3：
+  Nucleic Acid Conc:	172 ng/μl
+
+
+
+
+

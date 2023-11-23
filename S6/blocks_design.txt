@@ -1,0 +1,35 @@
+Method (A)：
+block1：
+  fragments：		β_L1,β_L2,β_L3,β_L4,β_L5,β_L6，β_L7,β_L8,β_L9
+  primers:		β_5,β_L9_overlap_3
+  length:		374bps
+
+block2：
+  fragments：		β_L10,β_L11,β_L12，β_L13,β_L14,β_L15,β_L16,β_L17,β_L18
+  primers:		β_L9_overlap_5,β_L18_overlap_3
+  length:		341bps
+
+block3：
+  fragments：		β_L19,β_L20,β_L21,β_L22,β_L23,β_L24，β_L25,β_L26,β_L27
+  primers:		β_L18_overlap_5,β_L27_overlap_3
+  length:		335bps
+
+Method (B)：
+block1：
+  fragments：		β_L1,β_L2,β_L3,β_L4,β_L5,β_L6，β_L7,β_L8,β_L9
+  primers:		β_5,β_L9_overlap_3
+  length:		374bps
+
+block2：
+  fragments：		β_L10,β_L11,β_L12，β_L13,β_L14,β_L15,β_L16,β_L17,β_L18
+  primers:		β_L9_overlap_5,β_L18_overlap_3
+  length:		341bps
+
+block3：
+  fragments：		β_L19,β_L20,β_L21,β_L22,β_L23,β_L24，β_L25,β_L26,β_L27
+  primers:		β_L18_overlap_5,β_L27_overlap_3
+  length:		335bps
+
+
+
+
