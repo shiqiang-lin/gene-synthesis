@@ -1,7 +1,7 @@
 
 The script is used to produce the needed DNA fragments for merging into the full-length gene with PCR. All of the resultant DNA fragments have similar melting temperatures in the overlap regions, which is important for the successful assembly of target gene via PCR.
 
-Here we use the example file ‘beta_original.fasta’, which is the original gene sequence before sequence optimization, to show the running process of our script. We show the steps in the macOS. The steps in the Windows are largely the same, except that the Terminal prompt is different.
+Here we use the example file ‘beta_original.fasta’, which is the original gene sequence before sequence optimization, to show the running process of our script. We show the steps in the macOS. The steps in the Windows are largely the same.
 
 Before running the script, make sure you have installed Python 3.10.
 ```zsh
@@ -18,10 +18,16 @@ matplotlib-inline                        0.1.3
 ```
 The output shows that the biopython and matplotlib have been installed.
 
-If not, you may need to install the packages using the following commands.
+While in Windows, the following command is used to see if the dependent packages have been installed.
+
 ```zsh
-python3.10 -m pip install "biopython==1.79"
-python3.10 -m pip install "matplotlib==3.6.3"
+> python3.10 -m pip list | findstr /R "^(bio|mat)"
+```
+
+If the dependent packages have not been installed, you may need to install the packages using the following commands.
+```zsh
+% python3.10 -m pip install "biopython==1.79"
+% python3.10 -m pip install "matplotlib==3.6.3"
 ```
 Then follow the steps below to run the script.
 
